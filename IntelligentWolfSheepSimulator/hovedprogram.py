@@ -1,8 +1,7 @@
 import pgzrun
-
 from spillbrett import Spillbrett
 
-bane = "testbaner/testbane3.txt"
+bane = "IntelligentWolfSheepSimulator/testbaner/testbane3.txt"
 spillbrett = Spillbrett(3000)
 spillbrett.legg_til_objekter_fra_fil(bane)
 
